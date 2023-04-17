@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   // Set our map properties
-  mapCenter = [108.1995630043371, 16.062252173662465];
+  mapCenter = [108.21147547864406, 16.06505300439531];
   basemapType = 'osm';
-  mapZoomLevel = 15;
+  mapZoomLevel = 18;
 
   mapLoadedEvent(status: boolean) {
     console.log('The map has loaded: ' + status);
